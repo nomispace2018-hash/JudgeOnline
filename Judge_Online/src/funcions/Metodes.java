@@ -25,5 +25,7 @@ public class Metodes {
 		Metodes.suma(); //Nombre de la clase (metodes) + nombre del public static (suma). 
 		suma(); //Esto es lo mismo que "Metodes.suma()". Si a otra clase le ponemos de static void el mismo nombre ("suma"), entonces, no podemos poner solo "suma()" porque se confundira el sistema, tenemos que indicar la clase, como en el ejemplo de arriba.
 	}
+
+	//Cuidado. ¡¡¡"VOID" indica que no devuelve NINGUN VALOR!!! En cambio, ¡¡¡"INT, DOUBE, BOOLEAN, STRING" devuelven valores en función del tipo de variable que son!!!
 		
 }
